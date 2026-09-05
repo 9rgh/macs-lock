@@ -1,9 +1,3 @@
---[[
-	Mac's Lock — encoded loader
-	Opening this raw link shows mostly gibberish.
-	Use: loadstring(game:HttpGet("YOUR_RAW_GITHUB_URL"))()
-]]
-
 local _b = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 local function _d(data)
 	data = string.gsub(data, "[^" .. _b .. "=]", "")
